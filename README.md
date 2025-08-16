@@ -1,5 +1,6 @@
 # fxhash-snippet-patch-math-pow
-A simple browser extension that injects a very specific patch into a specific snippet in the FXhash template. Thanks Piter Pasma for this suggestion.
+A simple browser extension that injects a patch into a specific snippet in the FXhash template. Thanks Piter Pasma for this suggestion.
+The goal is to restore the behavior of Math.pow for large numbers to match browser versions from 2021/2022. 
 
 Tested locally in Chromium and Firefox.
 
