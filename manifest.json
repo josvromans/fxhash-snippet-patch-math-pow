@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Math.pow patch for fxhash-snippet",
+  "version": "1.0",
+  "description": "A simple plugin that finds the 'fxhash-snippet' and injects a line of code that patches a specific problematic case of Math.pow",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["patch_math_pow_58_11.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
